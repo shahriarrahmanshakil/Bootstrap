@@ -12,58 +12,120 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <!-- As a Link -->
-    <nav class="navbar">
-
-        <div class="col-3">
-
-          <a class="navbar-brand" href="https://www.instagram.com/klubhausbd">
-            <img src="inslogo.png" alt="" title="klubhaus BD on instagram" width="25" height="25">
+   <!-- navbar as link -->
+   <nav class="navbar bg-light">
+    <div>
+      <ul class="navbar nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/klubhausbd" target="_blank">
+            <img src="instagram.png" alt="instagram" width="20px" height="20px" title="KLUBHAUS BD on instagram">
           </a>
-          
-          <a class="navbar-brand" href="https://www.facebook.com/klubhausbd">
-            <img src="fblogo.png" alt="" title="klubhaus BD on facebook" width="25" height="25">
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/klubhausbd" target="_blank">
+            <img src="facebook.png" alt="instagram" width="20px" height="20px" title="KLUBHAUS BD on facebook">
           </a>
+        </li>  
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/@klubhausbd" target="_blank">
+            <img src="youtube.png" alt="instagram" width="20px" height="20px" title="KLUBHAUS BD on youtube">
+          </a>
+        </li> 
         
-          <a class="navbar-brand" href="https://www.youtube.com/@klubhausbd">
-            <img src="youtubelogo.png" alt="" title="klubhaus BD on youtube" width="25" height="25">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.tiktok.com/@klubhausbd" target="_blank">
+            <img src="tiktok.png" alt="instagram" width="20px" height="20px" title="KLUBHAUS BD on tiktok">
           </a>
-        
-          <a class="navbar-brand" href="https://www.tiktok.com/@klubhausbd">
-            <img src="tiktoklogo.png" alt="" title="klubhaus BD on tiktok" width="25" height="25">
-          </a>
+        </li>  
+      </ul>
+      </div>
 
-        </div>
+      <div class="justify-content-center">
+          <img src="klogo.png" alt="" width="200px" height="auto">
+      </div>
 
-        <div class="col-6">
-            <img src="klogo.png" alt="" width="250" height="auto" >
-        </div>
+      <div>
+        <a href="">
+          <img src="user.png" alt="" width="20px" height="20px">
+        </a>
+        <a href="">
+          <img src="find.png" alt="" width="20px" height="20px">
+        </a>
+        <a href="">
+          <img src="grocery-store.png" alt="" width="20px" height="20px">
+        </a>
+      </div>
+   </nav>
 
-        <div class="col-3">
-          <input type="search">
-          <button>search</button>
-        </div>
+    <!-- navbar as dropdown -->
 
-      </nav>
-
-      <!-- As a heading -->
-    <nav class="navbar bg-body-tertiary">
-        <div class="container">
+    <nav class="navbar bg-light">
+      <div class="container">
         <ul class="navbar nav">
-            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Wedding Festive</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Winter-24</a></li>
-            <li class="nav-item"><a class="nav-link" href="">New Arrival</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Men</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Women</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Cub Klub</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Footwear</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Essential</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Accessories</a></li>
-        </ul>
-        </div>
+          <li class="nav-item"><a class="nav-link" href="">Home</a></li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">Wedding Festive</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Men's</a></li>
+              <li><a class="dropdown-item" href="#">Women's</a></li>
+              <li><a class="dropdown-item" href="#">Kid's</a></li>
+            </ul>  
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">Winter-24</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Men's</a></li>
+              <li><a class="dropdown-item" href="#">Women's</a></li>
+              <li><a class="dropdown-item" href="#">Kid's</a></li>
+            </ul> 
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">New Arrival</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Women</a></li>
+              <li><a class="dropdown-item" href="#">Kid</a></li>
+            </ul> 
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Men</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Formal Shirt</a></li>
+              <li><a class="dropdown-item" href="#">Casual Shirt</a></li>
+              <li><a class="dropdown-item" href="#">Panjabi</a></li>
+              <li><a class="dropdown-item" href="#">Sherwani</a></li>
+              <li><a class="dropdown-item" href="#">Prince Coat</a></li>
+              <li><a class="dropdown-item" href="#">WaistCoat</a></li>
+              <li><a class="dropdown-item" href="#">Men's kabli</a></li>
+              <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+              <li><a class="dropdown-item" href="#">Polo Shirts</a></li>
+              <li><a class="dropdown-item" href="#">Blazer</a></li>
+              <li><a class="dropdown-item" href="#">Overcoat</a></li>
+              <li><a class="dropdown-item" href="#">Jacket</a></li>
+              <li><a class="dropdown-item" href="#">Hoodie</a></li>
+              <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+              <li><a class="dropdown-item" href="#">Activewear</a></li>
+              <li><a class="dropdown-item" href="#">Sleepwear</a></li>
+              <li><a class="dropdown-item" href="#">Casual Pant</a></li>
+              <li><a class="dropdown-item" href="#">Denim Trouser</a></li>
+            </ul> 
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="">Women</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Cub Klub</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Footwear</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Essential</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Accessories</a></li>
+        </ul>
+      </div>
     </nav>
+ 
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -148,45 +210,9 @@
       </div>
       </div>
 
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
       
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
 
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
-      
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil adipisci deleniti maxime voluptatibus repudiandae voluptatum dolores autem impedit iure sint, blanditiis, nostrum aspernatur. Temporibus facere enim magnam maiores, aut officiis.
-      </p>
-
+  
 
 
       <footer class="bg-light text-dark pb-5 mt-5">
